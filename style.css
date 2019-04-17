@@ -1,0 +1,272 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-height: 10vh;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
+  /* position: fixed; */
+  background-color: rgba(91, 148, 212, 0.7);
+}
+
+.footer{
+  /* width: 100%; */
+  background-color: rgb(68, 68, 68);
+  color: rgb(201, 201, 201);
+  height: 10vh;
+  padding: 10px 50px;
+  max-width: 92%;
+}
+
+.footer a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.brand{
+  display: flex;
+  flex-direction: row;
+  flex-basis: 50%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.brand h3{
+  margin-top: 15px;
+  font-weight: lighter;
+  padding: 5px;
+}
+
+.brand img{
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+}
+
+.nav-right{
+  display: flex;
+  flex-basis: 50%;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 15px;
+  align-items: center;
+}
+
+.nav-right a{
+  text-decoration: none;
+  color: rgba(255,255,255, 0.8);
+  margin: 10px;
+  font-size: 1.1rem;
+}
+
+.nav-right a:hover{
+  color: rgba(255,255,255, 1);
+}
+
+.container{
+  display: flex;
+  justify-content: row;
+  padding: 10px;
+}
+
+.menu{
+  flex-basis: 20%;
+  padding: 5px;
+}
+
+.menu ul{
+  list-style: none;
+}
+
+.menu li{
+  margin: 5px;
+  width: 100%;
+  height: 30px;
+}
+
+.menu a{
+  text-decoration: none;
+  color: rgba(69, 142, 190, 0.7);
+}
+
+.menu a:hover{
+  color: rgba(69, 142, 190, 1);
+}
+
+.menu a.active{
+  color: rgba(69, 142, 190, 1);
+}
+
+.device img{
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+}
+
+.main{
+  flex-basis: 80%;
+}
+
+.welcome{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url('img/iphone.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  color: #000;
+}
+
+.welcome h3{
+  font-weight: lighter;
+  font-size: 2.5rem;
+  margin: 50px;
+}
+
+.welcome h5{
+  font-weight: lighter;
+  font-size: 1.3rem;
+  margin: 10px;
+}
+
+.welcome a{
+  text-decoration: none;
+  color: #fff;
+}
+
+#welcome-btn{
+  display: block;
+  align-items: center;
+  width: 100px;
+  height: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgba(69, 142, 190, 0.9);
+}
+
+#welcome-btn:hover{
+  background-color: rgba(69, 142, 190, 1);
+}
+
+.models{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  margin: 10px;
+}
+
+.device{
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100%;
+  align-items: center;
+  border: 1px solid rgb(184, 178, 178);
+  margin-top: 10px;
+}
+
+.device div{
+  margin: 10px;
+  margin-right: 10px;
+}
+
+.device.detailed img{
+  flex-basis: 20%;
+  width: 20%;
+  height: 20vh;
+  margin-right: 30px;
+}
+
+.profile-img img{
+  width: 500px;
+  height: 500px;
+  background-size: cover;
+}
+
+.container.display{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 20px;
+}
+
+.input{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 30px;
+}
+
+.input input{
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.input textarea{
+  padding: 10px;
+  height: 110px;
+  width: 170px;
+}
+
+.input select{
+  padding: 5px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(53, 53, 199);
+}
+
+.input select option{
+  padding: 10px;
+}
+
+.feed-btn{
+  display: block;
+  border-radius: 5px;
+  background-color: rgba(69, 142, 190, 0.8);
+  box-shadow: #fff;
+  color: #fff;
+  margin-left: 10%;
+  padding: 10px 40px;
+  width: 100%;
+
+}
+
+.feed-btn:hover{
+  background-color: rgba(69, 142, 190, 1);
+}
+
+.profile{
+  background: url('img/artist.jpg');
+  background-size: cover;
+  padding: 10px;
+  background-repeat: no-repeat;
+  height: 90vh;
+  width: 70%;
+  align-items: center;
+}
+
+.profile{
+  font-family: Helvetica;
+}
+
+.profile h3{
+  font-weight: lighter;
+}
